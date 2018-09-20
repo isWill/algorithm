@@ -117,7 +117,6 @@ function ladderLength(beginWord, endWord, wordList) {
   var visited  = [];
   var paths    = [];
   var dist     = 1;
-  var pathsNum = 0;
 
   visited.push(beginWord);
   paths.push(beginWord);
